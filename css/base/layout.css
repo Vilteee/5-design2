@@ -1,0 +1,72 @@
+
+.logo-bit {
+    width: 111.8px;
+    height: 50px;
+}
+
+.logo-group {
+    width: 70px;
+    height: 48.31px;
+    margin-right: 10px;
+}
+
+.logo-start {
+    width: 99px;
+    height: 50px;
+   
+}
+
+.row-start {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap:30px;
+}
+
+nav > a {
+    text-decoration: none;
+    color:white;
+
+}
+
+.hero-content {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.container-hero {
+    width: 40%;
+
+}
+
+.container-group-photo {
+    width: 40%;
+
+}
+
+.container-hero > p {
+font-family: 'Work Sans';
+font-weight: 400;
+font-size: 15px;
+text-align:justify;
+}
+
+.container-group-photo {
+    width: 500px;
+   
+}
+

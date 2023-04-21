@@ -1,0 +1,23 @@
+
+body,
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.bg-main {
+    background-color: #74C69D ;
+}
+
+.bg-main-font {
+    color: black;
+}
+
+.bg-secondary-font {
+    color: white;
+}
