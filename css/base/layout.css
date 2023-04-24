@@ -2,6 +2,7 @@
 .logo-bit {
     width: 111.8px;
     height: 50px;
+    margin-right: 30px;
 }
 
 .logo-group {
@@ -16,6 +17,12 @@
    
 }
 
+.logo-group-start {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+}
+
 .row-start {
     display: flex;
     justify-content: space-around;
@@ -28,7 +35,9 @@
 nav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: flex-start;
+    margin-left: 60px;
     padding: 0px;
     gap:30px;
 }
@@ -45,17 +54,26 @@ nav > a {
     padding-left: 15px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    
    
 }
 
 .container-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     width: 40%;
 
 }
 
-.container-group-photo {
-    width: 40%;
+.group-photo {
+    width: 50%;
+}
 
+.greeting {
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .container-hero > p {
@@ -65,8 +83,66 @@ font-size: 15px;
 text-align:justify;
 }
 
-.container-group-photo {
-    width: 500px;
+.h1-partners {
+text-transform: uppercase;
+color: #74C69D;
+letter-spacing: 4px;
+font-size: 15px;
+}
+
+.partners-logo-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
    
 }
 
+.short-p {
+    margin-top: -10px;
+}
+
+.logotips {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 65px;
+
+}
+
+.logotips > img {
+   width: 150px;
+   height: 50px; 
+}
+
+@media (max-width: 700px) {
+    .logo-bit {
+    width: 50px;
+    height: 20px;
+}
+
+.logo-group {
+    width: 30px;
+    height: 17px;
+}
+
+.logo-start {
+    width: 40px;
+    height: 20px;
+   
+}
+
+}
+
+@media (max-width: 450px) {
+    .logotips > img {
+        width: 100px;
+        height: 25px; 
+     }
+}
