@@ -1,0 +1,24 @@
+
+.lorem {
+    width: 50%;
+    margin-left: 60px;
+    position: relative;
+    
+}
+
+.lorem-h2 {
+    margin-top: 50px;
+}
+
+
+.lorem-para {
+    margin: 30px 0;
+}
+
+.btn.button-learn-more.para {
+    position: absolute;
+    top: 230px;
+}
+
+
+
