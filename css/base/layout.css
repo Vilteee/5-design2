@@ -104,7 +104,7 @@ font-size: 15px;
     margin-top: -10px;
 }
 
-.members {
+.members-logotip {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -136,14 +136,16 @@ font-size: 15px;
 
 .talents {
     margin-top: 80px;
+    position: relative;
 
 }
 
 .members {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     flex-wrap: wrap;
-    margin: 20px 50px 17px 25px;
+    margin: 20px 25px 17px 25px;
+   
 }
 
 .talent-container {
@@ -152,13 +154,11 @@ font-size: 15px;
     flex-direction: column;
     border-style: solid;
     border-color: white;
-    box-shadow: 3px 4px 12px 1px;
+    box-shadow: 3px 5px 8px 1px;
     border-radius: 5px;
     padding: 15px 20px 10px;
+    max-width: 180px ;
    
-
-
-
 }
 .talent-description {
     margin: 15px 0 10px 20px;
@@ -194,10 +194,47 @@ font-size: 15px;
 
 }
 
+.footer-all {
+    margin-top: 100px;
+    padding: 50px 0 50px 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo-container > img {
+   padding-left: 15px;
+   max-width: 40px;
+   
+}
+
+.footer-paragraph {
+    color: white;
+    margin-right: 100px;
+    font-size: 15px;
+
+}
 
 @media (max-width: 450px) {
     .logotips > img {
         width: 100px;
         height: 25px; 
      }
+}
+
+@media (max-width:790px ){
+    .creative-meeting {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 20px 0px;
+    
+    }
+
+    .creative-meeting.second {
+        flex-direction: column-reverse;
+    }
 }
