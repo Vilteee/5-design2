@@ -143,10 +143,36 @@ font-size: 15px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
- 
+    margin: 20px 50px 17px 25px;
 }
 
+.talent-container {
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 3px 4px 12px 1px;
+    border-radius: 5px;
+    padding: 15px 20px 10px;
+   
 
+
+
+}
+.talent-description {
+    margin: 15px 0 10px 20px;
+  
+}
+.talent-name {
+    font-weight: 700;
+  
+
+}
+.talent-status {
+    text-transform: uppercase;
+    margin-top: 15px;
+}
 
 
 @media (max-width: 700px) {
